@@ -29,5 +29,5 @@ start sbt, og kjør kommandoen `eclipse` for å generere eclipse prosjekt metada
 ### Emacs
 Følg guiden på [https://github.com/aemoncannon/ensime](https://github.com/aemoncannon/ensime)
 
-start sbt, og kjør kommandoen `ensime generate`, eval deretter `M-ensime` i emacs for å koble til ensime serveren
+start sbt, og kjør kommandoen `ensime generate`, kjør deretter `M-ensime` i emacs for å koble til ensime serveren
 
