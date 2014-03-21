@@ -143,7 +143,7 @@ def fib(n:Int):Int = {
 --
 
 ```scala
-def fib0(n:Int):Int =
+def fib(n:Int):Int =
   if(n == 0 || n == 1) n
   else fib0(n - 1) + fib(n - 2)
 ```
