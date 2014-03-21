@@ -50,20 +50,3 @@ object List {
     case Cons(x, xs)  => x * product(xs)
   }
 }
-
-object RunList {
-  def main(args:Array[String]){
-    val list:List[Int] = Cons(1, Cons(2, Cons(3, Cons(4, Cons(5, Nil)))))
-    val x = list match {
-      case Cons(x, Cons(2, Cons(4, _))) => x
-      case Nil => 42
-      case Cons(x, Cons(y, Cons(3, Cons(4, _)))) => x + y
-      case Cons(h, t) => h + List.sum(t)
-      case _ => 101
-    }
-
-    println(x)
-
-
-  }
-}

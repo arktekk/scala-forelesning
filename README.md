@@ -7,6 +7,8 @@ For å starte SBT, kjør kommandoen `./sbt` for linux/mac, eller `sbt.bat` for w
 
 Ønsker du å kjøre slides lokalt, start sbt og kjør kommandoen `slides`
 
+For å liste sbt prosjekter kjør kommandoen `projects`
+
 Navigering til et sub-prosjekt gjør du i sbt med kommandoen `project <name>` der &lt;name&gt; er navnet på prosjektet man
 vil navigere til.
 

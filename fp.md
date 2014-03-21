@@ -408,4 +408,9 @@ list.dropWhile(_ < 2)
 
 --
 
+## oppgaver
+
+> implementer en rekke metoder på List ved hjelp
+> av pattern matching og rekursjon
+
 
