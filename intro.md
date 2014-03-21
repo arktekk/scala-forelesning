@@ -10,7 +10,7 @@ println("Hello World")
 ---
 
 ## Sub Slide 1
-<!-- .slide: data-background="#ff0000" -->
+<!-- .slide: datna-background="#ff0000" -->
 
 ---
 
