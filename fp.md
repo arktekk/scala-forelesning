@@ -347,9 +347,9 @@ list match { case Nil => 42 } // MatchError @ Runtime
 ## hva er x ?
 ```scala
 val x = Cons(1, Cons(2, Cons(3, Cons(4, Cons(5, Nil))))) match {
-  case Cons(x, Cons(2, Cons(4, _))) => x
+  case Cons(a, Cons(2, Cons(4, _))) => a
   case Nil => 42
-  case Cons(x, Cons(y, Cons(3, Cons(4, _)))) => x + y
+  case Cons(a, Cons(b, Cons(3, Cons(4, _)))) => a + b
   case Cons(h, t) => h + sum(t)
   case _ => 101
 }
