@@ -14,7 +14,7 @@ sealed trait List[+A]{
 
   def tail:List[A] = ???
 
-  def isDefinedAt[B >: A](b:B):Boolean = ???
+  def isDefinedAt(i:Int):Boolean = ???
 
   def apply(i:Int):A = ???
 
