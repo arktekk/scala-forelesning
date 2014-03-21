@@ -20,6 +20,12 @@
 
 --
 
+![fp_in_scala](img/bjarnason_cover150.jpg)
+
+### [http://www.manning.com/bjarnason/](http://www.manning.com/bjarnason/)
+
+--
+
 ## Hva er FP ?
 * FP er programmering med funksjoner!
 * funksjoner uten sideeffekter <!-- .element class="fragment" -->
