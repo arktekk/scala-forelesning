@@ -17,6 +17,12 @@
 		<link rel="stylesheet" href="css/reveal.min.css">
 		<link rel="stylesheet" href="css/theme/default.css" id="theme">
 
+        <style>
+            .reveal pre code {
+                max-height: 600px;
+            }
+        </style>
+
 		<!-- For syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
 
@@ -51,6 +57,14 @@
 
 			</div>
 
+            <div class="slides">
+                <section data-markdown="unfiltered.md"
+                         data-separator="^\n--\n"
+                         data-vertical="^\n---\n"
+                         data-notes="^Note:">
+                </section>
+            </div>
+
 		</div>
 
 		<script src="lib/js/head.min.js"></script>
@@ -61,7 +75,7 @@
 			// Full list of configuration options available here:
 			// https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
-				controls: true,
+				controls: false,
 				progress: true,
 				history: true,
 				center: true,
