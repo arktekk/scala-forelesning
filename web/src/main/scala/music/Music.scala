@@ -16,7 +16,7 @@ import unfiltered.response.Html5
  * - List ut alle artister for en gitt tag
  * - Søk på artist
  * - Søk på sang
- * - Hvilke sanger er de mest vanlige (mest 'similar' til andre sanger)
+ * - Hvilke sanger er de mest main-stream (mest 'similar' til andre sanger)
  */
 object Music {
   def page(title:String)(body:NodeSeq) = Html5(
