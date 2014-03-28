@@ -6,6 +6,18 @@ import unfiltered.response._
 import scala.xml.NodeSeq
 import unfiltered.response.Html5
 
+/**
+ * Oppgaver
+ *
+ * - List ut alle artister
+ * - List ut alle sanger for en artist
+ * - List ut alle tags
+ * - List ut alle sanger for en gitt tag
+ * - List ut alle artister for en gitt tag
+ * - Søk på artist
+ * - Søk på sang
+ * - Hvilke sanger er de mest vanlige (mest 'similar' til andre sanger)
+ */
 object Music {
   def page(title:String)(body:NodeSeq) = Html5(
     <html>
