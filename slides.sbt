@@ -10,6 +10,8 @@ slides := unfiltered.util.Browser.open(s"http://localhost:${(port in container.C
 
 slides <<= slides.dependsOn(start in container.Configuration)
 
+port in container.Configuration := 8081
+
 webappResources in Compile := {
   val root = new java.io.File((thisProjectRef in LocalRootProject).value.build)
   Seq(root, root / "reveal")
